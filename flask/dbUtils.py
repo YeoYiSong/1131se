@@ -6,7 +6,7 @@ try:
 	#連線DB
 	conn = mysql.connector.connect(
 		user="root",
-		password="",
+		password="12345",
 		host="localhost",
 		port=3306,
 		database="test"
