@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, session, redirect
 from functools import wraps
-from dbUtils import getList
+#from dbUtils import getList
 
 # creates a Flask application, specify a static folder on /
 app = Flask(__name__, static_folder='static',static_url_path='/')
